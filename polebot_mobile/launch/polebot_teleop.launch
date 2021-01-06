@@ -1,0 +1,14 @@
+<launch>
+  <node
+    name="move_control"
+    type="move_control"
+    pkg="polebot_control" />
+       
+  <node
+    name="teleop_twist_keyboard"
+    type="teleop_twist_keyboard"
+    output="screen"
+    pkg="polebot_control" />
+
+
+</launch>
